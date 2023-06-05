@@ -1,0 +1,30 @@
+{
+  "name": "theme-json-generator",
+  "version": "1.0.0",
+  "description": "A Node.js tool for generating WordPress theme.json files interactively. Streamlines theme development by ensuring schema compliance through user prompts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WordPress",
+    "theme.json",
+    "Gutenberg",
+    "theme development",
+    "Node.js",
+    "npm package",
+    "JSON generation",
+    "interactive prompts",
+    "schema compliance",
+    "automation",
+    "command-line tool",
+    "CLI",
+    "web development"
+  ],
+  "author": "Alfredo Navas",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.2.7"
+  }
+}
