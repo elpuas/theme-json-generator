@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A Node.js tool for generating WordPress theme.json files interactively. Streamlines theme development by ensuring schema compliance through user prompts.",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "theme-json-generator": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,5 +1,7 @@
-const promptUser = require('./prompt');
-const generateThemeJson = require('./generate');
+#!/usr/bin/env node
+
+import promptUser from './prompt.js';
+import generateThemeJson from './generate.js';
 
 promptUser().then(answers => {
     generateThemeJson(answers);

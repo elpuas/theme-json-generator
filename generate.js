@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 function generateThemeJson(answers) {
     let themeJson = {
@@ -10,4 +10,4 @@ function generateThemeJson(answers) {
     fs.writeFileSync('theme.json', JSON.stringify(themeJson, null, 2));
 }
 
-module.exports = generateThemeJson;
+export default generateThemeJson;

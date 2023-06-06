@@ -1,5 +1,5 @@
-const inquirer = require('inquirer');
-const chalk = require('chalk');
+import inquirer from 'inquirer';
+import chalk from 'chalk';
 
 let questions = [
     {
@@ -15,8 +15,8 @@ let questions = [
   // Add more questions here
 ];
 
-function promptUser() {
+async function promptUser() {
     return inquirer.prompt(questions);
 }
 
-module.exports = promptUser;
+export default promptUser;
